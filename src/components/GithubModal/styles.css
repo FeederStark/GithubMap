@@ -1,0 +1,79 @@
+.modal-container {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+form {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form input {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons .cancel {
+  display: flex;
+  flex: 1;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #ccc;
+  color: #000;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buttons .cancel:hover {
+  background-color: #b3b3b3;
+}
+
+.buttons .save {
+  display: flex;
+  flex: 1;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #4eb73f;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #85c47c;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buttons .save:hover {
+  background-color: #85c47c;
+}
